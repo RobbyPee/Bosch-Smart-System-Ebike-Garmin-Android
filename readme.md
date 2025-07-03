@@ -91,6 +91,16 @@ Built with:
 
 - CLAUDE.ai
 
+# TO DO LIST
+
+- Hardcoded UUIDs: Bosch service UUIDs look suspicious - custom/placeholder UUIDs rather than official Bosch ones - investigate? read from BLE service?
+- Data parsing assumptions: The battery/assist parsing logic makes assumptions about packet structure that may not be correct
+- No error recovery: Limited handling of connection failures or data corruption
+
+*UI*
+- choose which fields are output as BLE sources (speed/cadence/ebike data)
+- choose which fields are output as notifications upon change (battery percentage?)
+
 ## License
 
 MIT License - feel free to modify and distribute.
