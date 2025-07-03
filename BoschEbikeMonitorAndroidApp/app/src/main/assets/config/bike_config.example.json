@@ -1,0 +1,17 @@
+{
+  "bike": {
+    "mac_address": "XX:XX:XX:XX:XX:XX",
+    "name": "My Bosch eBike"
+  },
+  "bluetooth": {
+    "services": {
+      "status_service_uuid": "00000010-eaa2-11e9-81b4-2a2ae2dbcce4",
+      "status_characteristic_uuid": "00000011-eaa2-11e9-81b4-2a2ae2dbcce4"
+    },
+    "scan_timeout_ms": 15000
+  },
+  "data_parsing": {
+    "battery_pattern": [48, 4, 128, 136, 8],
+    "assist_pattern": [48, 4, 152, 9, 8]
+  }
+}
