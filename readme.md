@@ -91,6 +91,11 @@ Built with:
 
 - CLAUDE.ai
 
+## Where to start understanding code? 
+
+Most of the relevant code is located here [BoschEbikeMonitorAndroidApp/app/src/main/java/com/RobPlow/BoschEbikeMonitor]
+
+
 # TO DO LIST
 
 - Hardcoded UUIDs: Bosch service UUIDs look suspicious - custom/placeholder UUIDs rather than official Bosch ones - investigate? read from BLE service?
