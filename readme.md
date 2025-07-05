@@ -93,7 +93,7 @@ Built with:
 
 ## Where to start understanding code? 
 
-Most of the relevant code is located here [BoschEbikeMonitorAndroidApp/app/src/main/java/com/RobPlow/BoschEbikeMonitor]
+Most of the relevant code is located [here](BoschEbikeMonitorAndroidApp/app/src/main/java/com/RobPlow/BoschEbikeMonitor)
 
 
 # TO DO LIST
