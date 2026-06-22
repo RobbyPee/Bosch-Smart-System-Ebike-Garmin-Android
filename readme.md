@@ -1,4 +1,4 @@
-# WIP - Bosch eBike Monitor
+# Bosch eBike Monitor
 
 Current Status - **Not being Developed**
 
@@ -14,7 +14,7 @@ Bosch now implements a similar feature to link Garmin devices to their Bosch mot
 
 A simple Android app to connect to Bosch eBikes via Bluetooth Low Energy (BLE) and monitor real-time data and re-broadcast as a BLE sensor so that a Garmin Edge device can read it. 
 
-Older updates from June 2025:
+**Older updates from June 2025:**
 
 Currently I have decoded fields for
 - Battery percentage
