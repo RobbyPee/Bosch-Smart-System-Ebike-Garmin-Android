@@ -1,6 +1,20 @@
 # WIP - Bosch eBike Monitor
 
+Current Status - **Not being Developed**
+
+Whilst its possible to read the Bosch ebike data on the phone, there are Garmin firmware restrictions that stop the data being broadcast from the phone back to the Garmin.
+
+The Garmin device is **unable** to hold two simulatenous connections to the phone:
+1. Garmin <-> Phone connection for Garmin Connect
+2. Garmin <-> Phone emulating emtb or power sensor so data can display data fields and log the data
+This is the reason I halted progress.
+
+I'd urge anyone interested in this to look at https://github.com/Nilogax/SmartBridge who has continued this work with a hardware bridge
+Bosch now implements a similar feature to link Garmin devices to their Bosch motor, but you need a more recent Garmin https://support.garmin.com/en-US/?faq=rrXMisEjAh22sJZLsRMChA
+
 A simple Android app to connect to Bosch eBikes via Bluetooth Low Energy (BLE) and monitor real-time data and re-broadcast as a BLE sensor so that a Garmin Edge device can read it. 
+
+Older updates from June 2025:
 
 Currently I have decoded fields for
 - Battery percentage
